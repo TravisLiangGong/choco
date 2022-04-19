@@ -6,7 +6,7 @@ $packageRepo = 'https://ara-artifactory.volvocars.biz/artifactory/artcsp-chocola
 
 # If the above $packageRepo repository requires authentication, add the username and password here. Otherwise these leave these as empty strings.
 $repoUsername = 'lgong5'    # this must be empty is NOT using authentication
-$repoPassword = 'princessV322'    # this must be empty if NOT using authentication
+$repoPassword = 'APJoSzdEUwyV2Nu3YiKnfBuxQP'    # this must be empty if NOT using authentication
 
 # Determine unzipping method
 # 7zip is the most compatible, but you need an internally hosted 7za.exe.
