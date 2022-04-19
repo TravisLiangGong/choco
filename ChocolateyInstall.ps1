@@ -6,7 +6,7 @@ $packageRepo = 'https://ara-artifactory.volvocars.biz/artifactory/artcsp-chocola
 
 # If the above $packageRepo repository requires authentication, add the username and password here. Otherwise these leave these as empty strings.
 $repoUsername = 'lgong5'    # this must be empty is NOT using authentication
-$repoPassword = 'eyJ2ZXIiOiIyIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYiLCJraWQiOiJLNlh5ZFJFZlhJTmNuaDM1WVRsTlFZajNUSDBKQk1MN0VLRWJCLWIzTENZIn0.eyJleHQiOiJ7XCJyZXZvY2FibGVcIjpcInRydWVcIn0iLCJzdWIiOiJqZmFjQDAxZXB5NmZtcXFybTVkMHY0cjVnYWUxOXJiXC91c2Vyc1wvbGdvbmc1Iiwic2NwIjoiYXBwbGllZC1wZXJtaXNzaW9uc1wvdXNlciIsImF1ZCI6IipAKiIsImlzcyI6ImpmZmVAMDAwIiwiZXhwIjoxNjgxODkwMjQyLCJpYXQiOjE2NTAzNTQyNDIsImp0aSI6IjdhYWQ5NDk2LTFmMDAtNDcxNS04ZTNkLTdhMmEyMDg4MTE1ZiJ9.D4xxkUt4SOHmd7Q_YqQAeQgU1CuJwt1uqpBol4bKva4qWMmRo7ev2tbVR2-Pmh8v4wg2O_f06o59vh_kjghkXLMKxgAcPNJDspWvpc5pe0t_CtkCB7BEIUIL2PKY3KDQGJWbWLeBv726McB0QLJFhYAf0xFnzCcbuveQ5XL9A8UcCO748my6dZQ4cpE2qmzeLlfv8j8nprsI2jSiAEQ-0BqQdG1ORERuXh7sE1N4RJBoezrNDlhGApjk7Sa9Pyl8IQUzuu4MaHdPue165Ana6rsTaDtdtGy1F8A6-MkT0KDMYw-PBTBN71N6uH5JwinTnlZf6B17oEZddp4sGqX7wQ'    # this must be empty if NOT using authentication
+$repoPassword = 'APJoSzdEUwyV2Nu3YiKnfBuxQP'    # this must be empty if NOT using authentication
 
 
 # Determine unzipping method
