@@ -163,14 +163,13 @@ param (
 [string]$packageODataSearchUrl,
 [string]$file
 )
-$downloader = Get-Downloader $packageODataSearchUrl
+$url = 'https://ara-artifactory.volvocars.biz/artifactory/artcsp-chocolatey-lts/chocolatey.1.1.0.nupkg'
+$downloader = Get-Downloader $url
 
-Write-Output "Querying latest package from $packageODataSearchUrl"
-[xml]$pkg = $downloader.DownloadString($packageODataSearchUrl)
-$packageDownloadUrl = $pkg.feed.entry.content.src
 
-Write-Output "Downloading $packageDownloadUrl to $file"
-$downloader.DownloadFile($packageDownloadUrl, $file)
+
+Write-Output "Downloading $url to $file"
+$downloader.DownloadFile($url, $file)
 }
 
 function Install-ChocolateyFromPackage {
