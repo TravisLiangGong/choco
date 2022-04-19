@@ -2,7 +2,7 @@
 # This is where you see the top level API - with xml to Packages - should look nearly the same as https://community.chocolatey.org/api/v2/
 # If you are using Nexus, always add the trailing slash or it won't work
 # === EDIT HERE ===
-$packageRepo = 'https://ara-artifactory.volvocars.biz/artifactory/artcsp-chocolatey-lts'
+$packageRepo = 'https://ara-artifactory.volvocars.biz/artifactory/artcsp-chocolatey-lts/chocolatey.1.1.0.nupkg'
 
 # If the above $packageRepo repository requires authentication, add the username and password here. Otherwise these leave these as empty strings.
 $repoUsername = 'lgong5'    # this must be empty is NOT using authentication
