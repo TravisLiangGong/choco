@@ -163,6 +163,8 @@ param (
 [string]$packageODataSearchUrl,
 [string]$file
 )
+####
+## hard coded url
 $url = 'https://ara-artifactory.volvocars.biz/artifactory/artcsp-chocolatey-lts/chocolatey.1.1.0.nupkg'
 $downloader = Get-Downloader $url
 
